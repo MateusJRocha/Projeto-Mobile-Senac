@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoMobile.PageCadastro">
+    <ContentPage.Content>
+        <StackLayout>
+            <Entry Placeholder="Digite seu Nome Completo"
+               HorizontalTextAlignment="Center"
+                   x:Name="entryNomeCompleto"
+                   Margin="30,100,30,5"/>
+
+            <Entry Placeholder="Digite seu Endereço"
+               HorizontalTextAlignment="Center"
+                   x:Name="entryEndereco"
+                   Margin="30,0,30,5"/>
+
+            <Entry Placeholder="Digite seu Email"
+               HorizontalTextAlignment="Center"
+                   x:Name="entryEmail"
+                   Margin="30,0,30,5"/>
+
+            <Entry Placeholder="Digite Sua Senha"
+               HorizontalTextAlignment="Center"
+                   x:Name="entrySenha"
+                   Margin="30,0,30,5"/>
+
+            <Entry Placeholder="Digite Sua Senha Novamente"
+               HorizontalTextAlignment="Center"
+                   x:Name="entrySenhaNovamente"
+                  Margin="30,0,30,5"/>
+
+            <StackLayout Orientation="Horizontal">
+                <Button Text="Cadastrar-se"
+                    x:Name="buttonNovoCadastro"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="0,180,0,0"/>
+
+                <Button Text ="Voltar"
+                    x:Name ="buttonVoltar"
+                    HorizontalOptions="FillAndExpand"
+                    Margin="0,180,0,0"/>
+
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoMobile.RecuperarSenha">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Recuperar Senha"
+                   HorizontalTextAlignment="Center"/>
+            
+                <Label Text="Coloque seu email, enviaremos um codigo de segurança"
+                       HorizontalTextAlignment="Center"
+                       Margin="0,170,0,0"/>
+            
+                <Entry Placeholder="Digite seu Email"
+               HorizontalTextAlignment="Center"
+                   x:Name="entryEmail"
+                   Margin="10,0,10,0"/>
+
+            <Button Text="Enviar"
+                    x:Name="buttonEnviar"
+                     Margin="10,0,10,0"/>
+
+            <Button Text="Voltar"
+                    x:Name="buttonVoltar"
+                     Margin="10,0,10,0"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

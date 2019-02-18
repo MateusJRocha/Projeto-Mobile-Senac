@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoMobile.PagePedidos">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Livro.png"
+                       WidthRequest="72"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Nome Do Livro: Diario de um Banana"
+                           Margin="0,10,0,0"
+                           HorizontalTextAlignment="Center"/>
+                    <Label Text="Genero: Comedia "
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Livro.png"
+                       WidthRequest="72"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Nome Do Livro: Harry Potter"
+                           Margin="0,10,0,0"
+                           HorizontalTextAlignment="Center"/>
+                    <Label Text="Genero: ficção"
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Livro.png"
+                       WidthRequest="72"/>
+                <StackLayout Orientation="Vertical">
+                    <Label Text="Nome Do Livro: A Culpa é das Estrela"
+                           Margin="0,10,0,0"
+                           HorizontalTextAlignment="Center"/>
+                    <Label Text="Genero: Romance "
+                           HorizontalTextAlignment="Center"/>
+                </StackLayout>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
