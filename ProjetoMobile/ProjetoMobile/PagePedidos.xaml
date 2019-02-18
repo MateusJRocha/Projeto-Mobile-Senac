@@ -23,12 +23,12 @@
                     <Label Text="Nome Do Livro: Harry Potter"
                            Margin="0,10,0,0"
                            HorizontalTextAlignment="Center"/>
-                    <Label Text="Genero: ficção"
+                    <Label Text="Genero: ficção" 
                            HorizontalTextAlignment="Center"/>
                 </StackLayout>
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal">
+            <StackLayout Orientation="Horizontal"> 
                 <Image Source="Livro.png"
                        WidthRequest="72"/>
                 <StackLayout Orientation="Vertical">
