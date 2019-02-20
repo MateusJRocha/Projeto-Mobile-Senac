@@ -2,11 +2,13 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ProjetoMobile"
-             x:Class="ProjetoMobile.MainPage">
+             x:Class="ProjetoMobile.MainPage"
+             BackgroundColor="#3B5998">
 
     <StackLayout>
-        <Image Source="ic_launcher.png"
-               Margin="0,150,0,0"/>
+        <Image Source="Livro.Png"
+               WidthRequest="100"
+               Margin="0,100,0,0"/>
         
         <Entry Placeholder="Digite o Email"
                HorizontalTextAlignment="Center"
@@ -16,22 +18,26 @@
         <Entry Placeholder="Digite a Senha"
                HorizontalTextAlignment="Center"
                Margin="30,10,30,5"
-               x:Name="entrySenha"/>
+               x:Name="entrySenha"
+               IsPassword="False"/>
 
         <Button Text="Login"
                 x:Name="buttonLogin"
-                Margin="30,10,30,5"/>
+                Margin="30,10,30,5"
+                Clicked="ButtonLogin_Clicked"/>
 
         <StackLayout Orientation="Horizontal">
             <Button Text="Cadastrar-se"
                     x:Name="buttonCadastro"
                     HorizontalOptions="FillAndExpand"
-                    Margin="0,170,0,0"/>
+                    Margin="0,170,0,0"
+                    Clicked="ButtonCadastro_Clicked"/>
 
             <Button Text ="Recuperar Senha"
                     x:Name ="buttonRecuperarSenha"
                     HorizontalOptions="FillAndExpand"
-                    Margin="0,170,0,0"/>
+                    Margin ="0,170,0,0"
+                    Clicked ="ButtonRecuperarSenha_Clicked"/>
 
         </StackLayout>
 

@@ -16,5 +16,10 @@ namespace ProjetoMobile
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void ButtonNovoCadastro_Clicked(object sender, EventArgs e)
+        {
+
+        }
+    }
 }

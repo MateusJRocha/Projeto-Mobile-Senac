@@ -13,5 +13,20 @@ namespace ProjetoMobile
         {
             InitializeComponent();
         }
+
+        private void ButtonLogin_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonCadastro_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ButtonRecuperarSenha_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }

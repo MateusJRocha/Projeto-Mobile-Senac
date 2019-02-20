@@ -11,7 +11,7 @@ namespace ProjetoMobile
         {
             InitializeComponent();
 
-            MainPage = new PagePedidos();
+            MainPage = new MainPage();
         }
 
         protected override void OnStart()
