@@ -19,14 +19,16 @@ namespace ProjetoMobile
 
         }
 
-        private void ButtonCadastro_Clicked(object sender, EventArgs e)
+        private async void ButtonCadastro_Clicked(object sender, EventArgs e)
         {
-
+            var Cadastro = new PageCadastro();
+            await Navigation.PushModalAsync(Cadastro);
         }
 
-        private void ButtonRecuperarSenha_Clicked(object sender, EventArgs e)
+        private async void ButtonRecuperarSenha_Clicked(object sender, EventArgs e)
         {
-
+            var RecuperarSenha = new RecuperarSenha();
+            await Navigation.PushModalAsync(RecuperarSenha);
         }
     }
 }

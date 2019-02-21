@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoMobile.PagePrincipal"
-             BackgroundColor="#3B5998">
+             BackgroundColor="#01464E">
     <ContentPage.Content>
         <StackLayout>
             <Image Source="Livro.Png"
@@ -11,15 +11,18 @@
             
             <Button Text="Faça seus Pedidos"
                 x:Name="buttonFacaPedidos"
-                     Margin="30,10,30,5"/>
+                     Margin="30,10,30,5"
+                    Clicked="ButtonFacaPedidos_Clicked"/>
             
             <Button Text="Livros alugados"
                     x:Name="buttonAlugados"
-                    Margin="30,10,30,5" />
+                    Margin="30,10,30,5"
+                    Clicked="ButtonAlugados_Clicked"/>
             
             <Button Text="Sobre"
                     x:Name="buttonSobre"
-                     Margin="30,10,30,5"/>
+                     Margin="30,10,30,5"
+                    Clicked="ButtonSobre_Clicked"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoMobile.ConfirmarSenha"
-             BackgroundColor="#3B5998">
+             BackgroundColor="#01464E">
     <ContentPage.Content>
         <StackLayout>
             <Entry Placeholder="Digite o Codigo"
@@ -24,9 +24,6 @@
                     x:Name="buttonEnviar"
                      Margin="10,100,10,0"/>
 
-            <Button Text="Voltar"
-                    x:Name="buttonVoltar"
-                     Margin="10,0,10,0"/>
 
 
         </StackLayout>

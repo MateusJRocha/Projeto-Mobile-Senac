@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ProjetoMobile"
              x:Class="ProjetoMobile.MainPage"
-             BackgroundColor="#3B5998">
+             BackgroundColor="#01464E">
 
     <StackLayout>
         <Image Source="Livro.Png"

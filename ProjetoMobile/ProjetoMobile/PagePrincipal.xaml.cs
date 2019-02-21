@@ -16,5 +16,22 @@ namespace ProjetoMobile
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private async void ButtonFacaPedidos_Clicked(object sender, EventArgs e)
+        {
+            var FacaPedidos = new PagePedidos();
+            await Navigation.PushModalAsync(FacaPedidos);
+        }
+
+        private void ButtonAlugados_Clicked(object sender, EventArgs e)
+        {
+
+        }
+
+        private async void ButtonSobre_Clicked(object sender, EventArgs e)
+        {
+            var Sobre = new Sobre();
+            await Navigation.PushModalAsync(Sobre);
+        }
+    }
 }

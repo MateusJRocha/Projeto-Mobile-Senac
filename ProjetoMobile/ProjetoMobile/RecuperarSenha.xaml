@@ -2,18 +2,22 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoMobile.RecuperarSenha"
-             BackgroundColor="#3B5998">
+             BackgroundColor="#01464E">
     <ContentPage.Content>
         <StackLayout>
             <Label Text="Recuperar Senha"
                    HorizontalTextAlignment="Center"/>
-            
-                <Label Text="Coloque seu email, enviaremos um codigo de segurança"
+
+            <Image Source="Livro.Png"
+               WidthRequest="100"/>
+
+            <Label Text="Coloque seu email, enviaremos um codigo de segurança"
                        HorizontalTextAlignment="Center"
-                       Margin="0,170,0,0"/>
+                       Margin="0,170,0,0"
+                       TextColor="White"/>
             
-                <Entry Placeholder="Digite seu Email"
-               HorizontalTextAlignment="Center"
+            <Entry Placeholder="Digite seu Email"
+                   HorizontalTextAlignment="Center"
                    x:Name="entryEmail"
                    Margin="10,0,10,0"/>
 
@@ -21,9 +25,7 @@
                     x:Name="buttonEnviar"
                      Margin="10,0,10,0"/>
 
-            <Button Text="Voltar"
-                    x:Name="buttonVoltar"
-                     Margin="10,0,10,0"/>
+
 
         </StackLayout>
     </ContentPage.Content>
