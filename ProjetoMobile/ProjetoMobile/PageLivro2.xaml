@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoMobile.PageLivro2"
+             BackgroundColor="#01464E">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Livro.Png"
+               WidthRequest="100"
+               Margin="0,100,0,0"/>
+
+                <Label Text="Nome Do Livro: Harry Potter e a Pedra Filosofal"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"/>
+                <Label Text="Genero: Ficção "
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
+
+                <Label Text="Resumo:"
+                   TextColor="White"
+                   Margin="5,20,0,0"/>
+
+            <Label Text="O livro conta a história de Harry Potter, um rapaz órfão criado pelos seus tios que descobre no seu décimo primeiro aniversário que é um feiticeiro. No romance, são narrados os seus primeiros passos na comunidade de feiticeiros, a sua entrada na Escola de Magia e Bruxaria de Hogwarts e o início da sua amizade com Rony Weasley e Hermione Granger, que o ajudam a enfrentar o Lorde Voldemort, maior feiticeiro das trevas e assassino dos pais de Harry, que agora procura um objeto lendário, conhecido como a pedra filosofal"
+                   TextColor="White"/>
+
+            <Button Text="Confirmar aluguel"
+                    VerticalOptions="EndAndExpand"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

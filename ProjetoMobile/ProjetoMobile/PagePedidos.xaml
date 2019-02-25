@@ -27,12 +27,12 @@
                         </StackLayout>
                     </ViewCell>
 
-                    <ViewCell Tapped="ViewCell_Tapped">
+                    <ViewCell Tapped="ViewCell_Tapped_1">
                         <StackLayout Orientation="Horizontal">
                             <Image Source="Livro.png"
                                     WidthRequest="72"/>
                             <StackLayout Orientation="Vertical">
-                                <Label Text="Nome Do Livro: Harry Potter"
+                                <Label Text="Nome Do Livro: Harry Potter e a pedra Filosofal"
                                        Margin="0,0,0,0"
                                        HorizontalTextAlignment="Center"
                                        TextColor="White"/>
@@ -43,16 +43,16 @@
                         </StackLayout>
                     </ViewCell>
 
-                    <ViewCell Tapped="ViewCell_Tapped">
+                    <ViewCell Tapped="ViewCell_Tapped_2">
                         <StackLayout Orientation="Horizontal">
                             <Image Source="Livro.png"
                                     WidthRequest="72"/>
                             <StackLayout Orientation="Vertical">
-                                <Label Text="Nome Do Livro: Não a dia Facil "
+                                <Label Text="Nome Do Livro: Não há dia Fácil "
                                        Margin="0,0,0,0"
                                        HorizontalTextAlignment="Center"
                                        TextColor="White"/>
-                                <Label Text="Genero: Acão "
+                                <Label Text="Genero: Literatura Estrangeira/Biografia "
                                        HorizontalTextAlignment="Center"
                                        TextColor="White"/>
                             </StackLayout>

@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProjetoMobile.PageLivro1"
+             BackgroundColor="#01464E">
+    <ContentPage.Content>
+        <StackLayout>
+            <Image Source="Livro.Png"
+               WidthRequest="100"
+               Margin="0,100,0,0"/>
+
+            <Label Text="Nome Do Livro: Diario de um Banana"
+                   HorizontalTextAlignment="Center"
+                   TextColor="White"/>
+            <Label Text="Genero: Comédia "
+                   HorizontalOptions="Center"
+                   TextColor="White"/>
+
+            <Label Text="Resumo:"
+                   TextColor="White"
+                   Margin="5,20,0,0"/>
+
+            <Label Text="Não é fácil ser criança. E ninguém sabe isso melhor do que o Greg Heffley, 
+que se vê aprisionado na escola preparatória, onde fracotes minorcas dividem os corredores com miúdos mais altos e malvados que já fazem a barba.
+Em O Diário de um Banana, o autor e ilustrador Jeff Kinney apresenta-nos um herói improvável. Como o Greg diz no seu diário: Não esperem que eu me ponha para aqui com Querido Diário isto e Querido Diário aquilo. Felizmente para nós, o que o Greg diz e o que realmente faz são duas coisas muito diferentes. 
+
+Este livro é o 1.º volume da série O Diário de um Banana, a coleção infantojuvenil mais vendida em Portugal."
+                   Margin="10,0,0,0"
+                  TextColor="White"/>
+
+            <Button Text="Confirmar aluguel"
+                    VerticalOptions="EndAndExpand"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

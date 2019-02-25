@@ -14,9 +14,18 @@ namespace ProjetoMobile
             InitializeComponent();
         }
 
-        private void ButtonLogin_Clicked(object sender, EventArgs e)
+        private async void ButtonLogin_Clicked(object sender, EventArgs e)
         {
-
+            if (entryEmail.Text == "admin" && entrySenha.Text == "admin")
+            {
+                var page = new PagePrincipal();
+                await Navigation.PushModalAsync(page);
+                
+            }
+            else
+            {
+                await DisplayAlert("Ops...", "Login e/ou senha incorreto", "ok");
+            }
         }
 
         private async void ButtonCadastro_Clicked(object sender, EventArgs e)
