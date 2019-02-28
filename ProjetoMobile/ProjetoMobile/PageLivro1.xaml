@@ -11,7 +11,8 @@
 
             <Label Text="Nome Do Livro: Diario de um Banana"
                    HorizontalTextAlignment="Center"
-                   TextColor="White"/>
+                   TextColor="White"
+                    x:Name="labelNome"/>
             <Label Text="Genero: Comédia "
                    HorizontalOptions="Center"
                    TextColor="White"/>
@@ -29,7 +30,8 @@ Este livro é o 1.º volume da série O Diário de um Banana, a coleção infant
                   TextColor="White"/>
 
             <Button Text="Confirmar aluguel"
-                    VerticalOptions="EndAndExpand"/>
+                    VerticalOptions="EndAndExpand"
+                    Clicked="Button_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>

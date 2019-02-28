@@ -12,9 +12,16 @@ namespace ProjetoMobile
 	[XamlCompilation(XamlCompilationOptions.Compile)]
 	public partial class PageLivro3 : ContentPage
 	{
-		public PageLivro3 ()
+        public static string Nome { get; set; } = "";
+        public PageLivro3 ()
 		{
 			InitializeComponent ();
 		}
-	}
+
+        private void Button_Clicked(object sender, EventArgs e)
+        {
+            Nome = labelNome.Text;
+            DisplayAlert(null, "Alugado", "Ok");
+        }
+    }
 }

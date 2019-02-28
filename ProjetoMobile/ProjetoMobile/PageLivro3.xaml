@@ -2,28 +2,32 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="ProjetoMobile.PageLivro3"
-             BackgroundColor="#01464E">>
+             BackgroundColor="#01464E">
     <ContentPage.Content>
         <StackLayout>
             <Image Source="Livro.Png"
                WidthRequest="100"
                Margin="0,100,0,0"/>
 
-                <Label Text="Nome Do Livro: não há dia Fácil"
+            <Label Text="Nome Do Livro: Não há dia Fácil"
                    HorizontalTextAlignment="Center"
-                   TextColor="White"/>
-            <Label Text="Genero: Literatura Estrangeira/ Biografia "
+                   TextColor="White"
+                    x:Name="labelNome"/>
+            <Label Text="Genero: Literatura Estrangeira/Biografia "
                    HorizontalOptions="Center"
                    TextColor="White"/>
 
-                <Label Text="Resumo:"
+            <Label Text="Resumo:"
                    TextColor="White"
                    Margin="5,20,0,0"/>
 
-            <Label Text=" Não há dia fácil é um retrato da vida nas equipes do Seal e o único relato interno sobre a Operação Lança de Netuno, realizada em 1o. de maio de 2011, que resultou na morte do terrorista Osama bin Laden. Desde a pane no helicóptero Black Hawk – que quase fez com que a missão fosse abortada – até o comunicado pelo rádio via satélite confirmando que o alvo estava morto, a operação dos vinte e quatro homens na propriedade secreta de Bin Laden é recontada em mínimos detalhes. "/>
+            <Label Text="Não há dia fácil é um retrato da vida nas equipes do Seal e o único relato interno sobre a Operação Lança de Netuno, realizada em 10 de maio de 2011, que resultou na morte do terrorista Osama bin Laden. Desde a pane no helicóptero Black Hawk – que quase fez com que a missão fosse abortada – até o comunicado pelo rádio via satélite confirmando que o alvo estava morto, a operação dos vinte e quatro homens na propriedade secreta de Bin Laden é recontada em mínimos detalhes. Das ruas de Badgá ao resgate do capitão Richard Phillips no oceano Índico; das montanhas ao leste de Cabul ao terceiro andar do esconderijo de Osama bin Laden em Abbottabad, no Paquistão. Não há dia fácil coloca o leitor dentro de uma das mais surpreendentes tropas de elite do mundo."
+                   TextColor="White"/>
 
             <Button Text="Confirmar aluguel"
-                    VerticalOptions="EndAndExpand"/>
+                    VerticalOptions="EndAndExpand"
+                    Clicked="Button_Clicked"/>
+            
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -23,9 +23,10 @@ namespace ProjetoMobile
             await Navigation.PushModalAsync(FacaPedidos);
         }
 
-        private void ButtonAlugados_Clicked(object sender, EventArgs e)
+        private async void ButtonAlugados_Clicked(object sender, EventArgs e)
         {
-
+            var Aluguel = new PageLivrosAlugados();
+            await Navigation.PushModalAsync(Aluguel);
         }
 
         private async void ButtonSobre_Clicked(object sender, EventArgs e)

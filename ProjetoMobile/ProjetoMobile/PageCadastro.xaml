@@ -23,7 +23,14 @@
             <Entry Placeholder="Digite Sua Senha"
                HorizontalTextAlignment="Center"
                    x:Name="entrySenha"
-                   Margin="30,0,30,5"/>
+                   Margin="30,0,30,5"
+                   IsPassword="True"/>
+            
+            <Entry Placeholder="Digite Sua Senha Novamente"
+               HorizontalTextAlignment="Center"
+                   x:Name="entrySenha2"
+                   Margin="30,0,30,5"
+                   IsPassword="True"/>
 
             <Entry Placeholder="Digite Seu Telefone"
                HorizontalTextAlignment="Center"

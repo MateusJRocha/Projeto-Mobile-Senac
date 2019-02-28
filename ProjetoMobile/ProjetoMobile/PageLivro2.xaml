@@ -11,7 +11,8 @@
 
                 <Label Text="Nome Do Livro: Harry Potter e a Pedra Filosofal"
                    HorizontalTextAlignment="Center"
-                   TextColor="White"/>
+                   TextColor="White"
+                       x:Name="labelNome"/>
                 <Label Text="Genero: Ficção "
                    HorizontalOptions="Center"
                    TextColor="White"/>
@@ -24,7 +25,9 @@
                    TextColor="White"/>
 
             <Button Text="Confirmar aluguel"
-                    VerticalOptions="EndAndExpand"/>
+                    VerticalOptions="EndAndExpand"
+                    x:Name="buttonConfirmar"
+                    Clicked="ButtonConfirmar_Clicked"/>
 
         </StackLayout>
     </ContentPage.Content>

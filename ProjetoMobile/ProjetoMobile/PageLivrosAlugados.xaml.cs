@@ -15,6 +15,18 @@ namespace ProjetoMobile
 		public PageLivrosAlugados ()
 		{
 			InitializeComponent ();
-		}
-	}
+
+            
+            var label = new Label
+            {
+                Text = PageLivro2.Nome,
+                TextColor = Color.White,
+                FontSize = 18
+                
+                
+            };
+
+            Content = label;
+        }
+    }
 }
