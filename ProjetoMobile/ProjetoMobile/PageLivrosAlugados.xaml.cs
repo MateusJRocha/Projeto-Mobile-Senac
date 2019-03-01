@@ -27,6 +27,28 @@ namespace ProjetoMobile
             };
 
             Content = label;
+
+            var label1 = new Label
+            {
+                Text = PageLivro1.Nome,
+                TextColor = Color.White,
+                FontSize = 18
+
+
+            };
+
+            Content = label1;
+
+            var label2 = new Label
+            {
+                Text = PageLivro3.Nome,
+                TextColor = Color.White,
+                FontSize = 18
+
+
+            };
+
+            Content = label2;
         }
     }
 }
